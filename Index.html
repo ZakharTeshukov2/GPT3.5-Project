@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ChatGPT</h1>
+    </header>
+    <main>
+        <form>
+            <label for="user-input">Ask ChatGPT a question:</label>
+            <input type="text" id="user-input">
+            <button id="send-button">Send</button>
+        </form>
+        <div id="chat-container">
+            <div class="chat-message">
+                <div class="user-message">
+                    <p>Hello, how can I help you?</p>
+                </div>
+                <div class="chatgpt-message">
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
